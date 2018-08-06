@@ -19,3 +19,11 @@
 ### Getting Started
 
 * `export GOPATH=~/Documents/estudio/golang` Para definir nuestro workspace
+
+### Estructura de Directorios Padre
+
+Para trabajar de la mejor forma con librerias de terceros, vamos a seguir el siguiente patrón:
+
+Dentro del directorio que definimos como $GOPATH crearemos la siguiente estructura de carpetas:
+
+`src/github.com/<username>/<project>`
