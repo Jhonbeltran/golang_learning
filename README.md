@@ -13,3 +13,9 @@
 * Librería estandar net/http, net/websocket
 * Linter definido desde el principio == Código legible
 * Fácil despliegue
+
+***
+
+### Getting Started
+
+* `export GOPATH=~/Documents/estudio/golang` Para definir nuestro workspace
