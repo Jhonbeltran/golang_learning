@@ -18,7 +18,7 @@
 
 ### Getting Started
 
-* `export GOPATH=~/Documents/estudio/golang` Para definir nuestro workspace
+* `export GOPATH="/home/jf/Documents/estudio/golang"` Para definir nuestro workspace
 
 ### Estructura de Directorios Padre
 
