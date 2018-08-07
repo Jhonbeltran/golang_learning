@@ -3,5 +3,9 @@ package main //Forma de crear modulos en go
 import "fmt"
 
 func main()  {
-  fmt.Print("Hola Mundo")
+  var name string
+  fmt.Println("Hola Mundo")
+  fmt.Print("Ingresa tu nombre: ")
+  fmt.Scanf("%s", &name)
+  fmt.Println("Has ingresado como: ",name)
 }
