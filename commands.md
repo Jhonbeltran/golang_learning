@@ -18,6 +18,14 @@
 
 )
 
-### Declaracion de constantes
+* `a,b,c := 4,5,6`
+
+## Declaracion de constantes
 
 * `const vel_luz = 173`
+
+## Definición de Funciones
+
+* `func saludar() string {}` En este caso retornamos un string
+* `func saludar() (int, int) {}` En este caso retornamos dos enteros
+* `func saludar(a int, b string) {}` En este caso recibimos dos variables
