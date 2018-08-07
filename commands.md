@@ -8,7 +8,7 @@
 * `var nombre string`
 * `nombre := "Sin nombre"`
 * `var nombre = "Sin nombre"`
-* `var (
+* var (
 
   a = 1
 
@@ -16,4 +16,8 @@
 
   c = 3
 
-)`
+)
+
+### Declaracion de constantes
+
+* `const vel_luz = 173`
