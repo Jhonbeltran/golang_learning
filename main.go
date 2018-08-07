@@ -7,5 +7,5 @@ func main()  {
   fmt.Println("Hola Mundo")
   fmt.Print("Ingresa tu nombre: ")
   fmt.Scanf("%s", &name)
-  fmt.Println("Has ingresado como: ",name)
+  fmt.Printf("Has ingresado como: %s --- Bienvenido\n",name)d
 }
