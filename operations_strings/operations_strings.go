@@ -1,11 +1,11 @@
-package main
+package operations_strings
 
 import (
 	"fmt"
 	"strings"
 )
 
-func main() {
+func operations_strings() {
 	var text = "hola mundo, hola platzi, Hola Go"
 	fmt.Println(text)
 	fmt.Println(strings.ToUpper(text))

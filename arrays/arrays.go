@@ -1,8 +1,8 @@
-package main
+package arrays
 
 import "fmt"
 
-func main() {
+func arrays() {
 	chords := [4]string{"A", "Em", "G", "D"}
 	fmt.Println("Array: ", chords)
 	s := make([]string, 3)

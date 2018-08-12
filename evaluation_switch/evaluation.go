@@ -1,11 +1,11 @@
-package main
+package evaluation_switch
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func evaluation_switch() {
 	fmt.Println("When's Saturday?")
 	today := time.Now().Weekday()
 	switch time.Saturday {

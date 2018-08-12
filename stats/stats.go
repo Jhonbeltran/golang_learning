@@ -1,8 +1,8 @@
-package main
+package stats
 
 import "fmt"
 
-func main() {
+func stats() {
 	mean_values := mean()
 	fmt.Println("mean:", mean_values)
 }

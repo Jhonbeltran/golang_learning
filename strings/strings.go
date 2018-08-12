@@ -1,8 +1,8 @@
-package main
+package strings
 
 import "fmt"
 
-func main() {
+func strings() {
 	word := "ทำงานเพื่อชีวิตที่คุณต้องการ"
 	fmt.Println(word)
 	fmt.Println(word[0])

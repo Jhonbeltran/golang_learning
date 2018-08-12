@@ -1,11 +1,11 @@
-package main
+package no_condition_switch
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func no_condition_switch() {
 	t := time.Now()
 	switch {
 	case t.Hour() < 12:

@@ -1,8 +1,8 @@
-package main
+package conditions
 
 import "fmt"
 
-func main() {
+func conditions() {
 	iffunc()
 	forfunc()
 }
