@@ -1,6 +1,8 @@
 package main //Forma de crear modulos en go
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	var name string

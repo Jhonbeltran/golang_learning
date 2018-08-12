@@ -27,3 +27,8 @@ Para trabajar de la mejor forma con librerias de terceros, vamos a seguir el sig
 Dentro del directorio que definimos como $GOPATH crearemos la siguiente estructura de carpetas:
 
 `src/github.com/<username>/<project>`
+
+***
+## Paquetes
+
+* Si una función dentro de un paquete está escrita en minuscula `funcitionName` es una función privada. PAra poder llamar una funcion de un paquete esta debe estar en Mayescula `FunctionName`

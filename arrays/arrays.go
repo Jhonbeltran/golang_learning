@@ -2,7 +2,8 @@ package arrays
 
 import "fmt"
 
-func arrays() {
+// Examples retorna ejemplos de funcionalidades de arrays
+func Examples() {
 	chords := [4]string{"A", "Em", "G", "D"}
 	fmt.Println("Array: ", chords)
 	s := make([]string, 3)
