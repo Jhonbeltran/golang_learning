@@ -2,6 +2,10 @@ package main //Forma de crear modulos en go
 
 import (
 	"fmt"
+
+	"github.com/Jhonbeltran/gocurso/arrays"
+	"github.com/Jhonbeltran/gocurso/basic_switch"
+	"github.com/Jhonbeltran/gocurso/stats"
 )
 
 func main() {
@@ -15,5 +19,10 @@ func main() {
 		b = 2
 		c = 3
 	)
-	fmt.Println(a, b, c)
+	fmt.Print(a, b, c)
+	fmt.Print("\n")
+	stats.Stats()
+	arrays.Examples()
+	basic_switch.Basic_switch()
+
 }

@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-func basic_switch() {
+func Basic_switch() {
 	fmt.Print("Go runs on ")
 	switch os := runtime.GOOS; os {
 	case "darwin":
