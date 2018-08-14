@@ -29,5 +29,7 @@ func main() {
 	fmt.Println(maps.GetMap())
 	fmt.Println(maps.GetAuthor("Lloverá y yo veré"))
 	fmt.Println(ownStruct.Structures())
+	blackmirror := ownStruct.Structures()
+	blackmirror.Subscribe("Jhon")
 
 }
