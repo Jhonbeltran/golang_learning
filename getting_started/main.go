@@ -5,6 +5,7 @@ import (
 
 	"github.com/Jhonbeltran/gocurso/arrays"
 	"github.com/Jhonbeltran/gocurso/basic_switch"
+	"github.com/Jhonbeltran/gocurso/maps"
 	"github.com/Jhonbeltran/gocurso/stats"
 )
 
@@ -24,5 +25,6 @@ func main() {
 	stats.Stats()
 	arrays.Examples()
 	basic_switch.Basic_switch()
+	fmt.Println(maps.GetMap())
 
 }
