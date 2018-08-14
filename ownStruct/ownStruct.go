@@ -6,11 +6,11 @@ type Cv struct {
 	Studies []string
 }
 
-func Structures() Cv {
-	curriculum := Cv{Name: "Jhon", Age: 21, Studies: []string{"Machine Learnig", "Python"}}
-	// curriculum := new(Cv)
-	// curriculum.Name = "Jhon"
-	// curriculum.Age = 21
-	// curriculum.Studies = []string{"Machine Learnig", "Python"}
+func Structures() *Cv {
+	// curriculum := Cv{Name: "Jhon", Age: 21, Studies: []string{"Machine Learnig", "Python"}}
+	curriculum := new(Cv)
+	curriculum.Name = "Jhon"
+	curriculum.Age = 21
+	curriculum.Studies = []string{"Machine Learnig", "Python"}
 	return curriculum
 }
