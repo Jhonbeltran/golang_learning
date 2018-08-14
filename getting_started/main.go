@@ -6,6 +6,7 @@ import (
 	"github.com/Jhonbeltran/gocurso/arrays"
 	"github.com/Jhonbeltran/gocurso/basic_switch"
 	"github.com/Jhonbeltran/gocurso/maps"
+	"github.com/Jhonbeltran/gocurso/ownStruct"
 	"github.com/Jhonbeltran/gocurso/stats"
 )
 
@@ -27,5 +28,6 @@ func main() {
 	basic_switch.Basic_switch()
 	fmt.Println(maps.GetMap())
 	fmt.Println(maps.GetAuthor("Lloverá y yo veré"))
+	fmt.Println(ownStruct.Structures())
 
 }
