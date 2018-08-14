@@ -26,5 +26,6 @@ func main() {
 	arrays.Examples()
 	basic_switch.Basic_switch()
 	fmt.Println(maps.GetMap())
+	fmt.Println(maps.GetAuthor("Lloverá y yo veré"))
 
 }
