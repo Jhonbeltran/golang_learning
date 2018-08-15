@@ -28,8 +28,16 @@ func main() {
 	basic_switch.Basic_switch()
 	fmt.Println(maps.GetMap())
 	fmt.Println(maps.GetAuthor("Lloverá y yo veré"))
-	fmt.Println(ownStruct.Structures())
-	blackmirror := ownStruct.Structures()
-	blackmirror.Subscribe("Jhon")
-
+	blackmirror := ownStruct.CreateSerie()
+	blackmirror.Name = "Black Mirror"
+	blackmirror.CreadorDelPrograma = "Charlie Brooker"
+	blackmirror.Generos = []string{"Ciencia ficción", "Ficción utópica y distópica", "Sátira", "Thriller psicológico", "Serie de antología"}
+	blackmirror.Premios = []string{"Premio Peabody"}
+	blackmirror.Autores = []string{"Charlie Brooker", "Jesse Armstrong", "Will Bridges"}
+	playtest := ownStruct.CreateEpisode()
+	playtest.Titulo = "Playtest"
+	playtest.Duracion = 57
+	playtest.Temporada = 3
+	ownStruct.CallSubscribe(blackmirror)
+	ownStruct.CallSubscribe(playtest)
 }

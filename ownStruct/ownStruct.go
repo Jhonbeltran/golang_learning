@@ -2,26 +2,43 @@ package ownStruct
 
 import "fmt"
 
+type Episode struct {
+	Titulo    string
+	Temporada int
+	Duracion  int
+}
 type Serie struct {
 	Name               string
 	CreadorDelPrograma string
-	Géneros            []string
+	Generos            []string
 	Premios            []string
 	Autores            []string
 }
 
-func Structures() *Serie {
+func CreateSerie() *Serie {
 	// curriculum := Serie{Name: "Jhon", Age: 21, Studies: []string{"Machine Learnig", "Python"}}
-	blackmirror := new(Serie)
-	blackmirror.Name = "Black Mirror"
-	blackmirror.CreadorDelPrograma = "Charlie Brooker"
-	blackmirror.Géneros = []string{"Ciencia ficción", "Ficción utópica y distópica", "Sátira", "Thriller psicológico", "Serie de antología"}
-	blackmirror.Premios = []string{"Premio Peabody"}
-	blackmirror.Autores = []string{"Charlie Brooker", "Jesse Armstrong", "Will Bridges"}
+	serie := new(Serie)
+	return serie
+}
 
-	return blackmirror
+func CreateEpisode() *Episode {
+	episode := new(Episode)
+	return episode
+}
+
+//Para poder subscribirse a episodios y series
+type Netflix interface {
+	Subscribe(name string)
+}
+
+func CallSubscribe(n Netflix) {
+	n.Subscribe("Jhon")
 }
 
 func (s Serie) Subscribe(name string) {
 	fmt.Printf("* %s ahora está viendo %s \n", name, s.Name)
+}
+
+func (e Episode) Subscribe(name string) {
+	fmt.Printf("* %s ahora está viendo %s \n", name, e.Titulo)
 }
