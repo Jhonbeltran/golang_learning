@@ -6,8 +6,8 @@ import (
 	"github.com/Jhonbeltran/gocurso/arrays"
 	"github.com/Jhonbeltran/gocurso/basic_switch"
 	"github.com/Jhonbeltran/gocurso/maps"
+	"github.com/Jhonbeltran/gocurso/operations"
 	"github.com/Jhonbeltran/gocurso/ownStruct"
-	"github.com/Jhonbeltran/gocurso/stats"
 	"github.com/Jhonbeltran/gocurso/usingDefer"
 )
 
@@ -24,7 +24,7 @@ func main() {
 	)
 	fmt.Print(a, b, c)
 	fmt.Print("\n")
-	stats.Stats()
+	operations.Operations()
 	arrays.Examples()
 	basic_switch.Basic_switch()
 	fmt.Println(maps.GetMap())
@@ -43,4 +43,5 @@ func main() {
 	ownStruct.CallSubscribe(playtest)
 	usingDefer.Start()
 	usingDefer.StakingDefeders()
+	operations.SumPanic()
 }
