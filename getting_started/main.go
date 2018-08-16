@@ -5,6 +5,7 @@ import (
 
 	"github.com/Jhonbeltran/gocurso/arrays"
 	"github.com/Jhonbeltran/gocurso/basic_switch"
+	"github.com/Jhonbeltran/gocurso/gorutines"
 	"github.com/Jhonbeltran/gocurso/maps"
 	"github.com/Jhonbeltran/gocurso/operations"
 	"github.com/Jhonbeltran/gocurso/ownStruct"
@@ -46,4 +47,5 @@ func main() {
 	usingDefer.StakingDefeders()
 	//operations.SumPanic()
 	pointers.PrintPointers()
+	gorutines.Rutines()
 }
