@@ -7,18 +7,17 @@ import (
 	"github.com/Jhonbeltran/gocurso/basic_switch"
 	"github.com/Jhonbeltran/gocurso/gorutines"
 	"github.com/Jhonbeltran/gocurso/maps"
-	"github.com/Jhonbeltran/gocurso/operations"
 	"github.com/Jhonbeltran/gocurso/ownStruct"
 	"github.com/Jhonbeltran/gocurso/pointers"
 	"github.com/Jhonbeltran/gocurso/usingDefer"
 )
 
 func main() {
-	var name string
-	fmt.Println("Hola Mundo")
-	fmt.Print("Ingresa tu nombre: ")
-	fmt.Scanf("%s", &name)
-	fmt.Printf("Has ingresado como: %s --- Bienvenido\n", name)
+	// var name string
+	// fmt.Println("Hola Mundo")
+	// fmt.Print("Ingresa tu nombre: ")
+	// fmt.Scanf("%s", &name)
+	// fmt.Printf("Has ingresado como: %s --- Bienvenido\n", name)
 	var (
 		a = 1
 		b = 2
@@ -26,7 +25,7 @@ func main() {
 	)
 	fmt.Print(a, b, c)
 	fmt.Print("\n")
-	operations.Operations()
+	//operations.Operations()
 	arrays.Examples()
 	basic_switch.Basic_switch()
 	fmt.Println(maps.GetMap())
@@ -47,5 +46,6 @@ func main() {
 	usingDefer.StakingDefeders()
 	//operations.SumPanic()
 	pointers.PrintPointers()
-	gorutines.Rutines()
+	//gorutines.Rutines()
+	gorutines.Channels()
 }
