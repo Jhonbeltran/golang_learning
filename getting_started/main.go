@@ -8,6 +8,7 @@ import (
 	"github.com/Jhonbeltran/gocurso/maps"
 	"github.com/Jhonbeltran/gocurso/operations"
 	"github.com/Jhonbeltran/gocurso/ownStruct"
+	"github.com/Jhonbeltran/gocurso/pointers"
 	"github.com/Jhonbeltran/gocurso/usingDefer"
 )
 
@@ -43,5 +44,6 @@ func main() {
 	ownStruct.CallSubscribe(playtest)
 	usingDefer.Start()
 	usingDefer.StakingDefeders()
-	operations.SumPanic()
+	//operations.SumPanic()
+	pointers.PrintPointers()
 }
