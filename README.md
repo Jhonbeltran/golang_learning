@@ -32,3 +32,8 @@ Dentro del directorio que definimos como $GOPATH crearemos la siguiente estructu
 ## Paquetes
 
 * Si una función dentro de un paquete está escrita en minuscula `funcitionName` es una función privada. PAra poder llamar una funcion de un paquete esta debe estar en Mayescula `FunctionName`
+
+
+https://www.godesignpatterns.com/2014/04/new-vs-make.html
+
+> The make() function, on the other hand, is a special built-in function that is used to initialize slices, maps, and channels. Note that make() can only be used to initialize slices, maps, and channels, and that, unlike the new() function, make() does not return a pointer.
